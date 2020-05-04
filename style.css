@@ -1,0 +1,71 @@
+
+/* pierwsze stylowanie */
+
+body {
+
+    background: rosybrown;
+}
+
+section {
+background: sandybrown;
+
+}
+
+h1 {
+
+    color:blueviolet;
+    background:   yellow;
+}
+
+
+p {
+
+   color:rgb(41, 4, 25);
+   background: skyblue;
+}
+
+h2 {
+
+   color: #9b1212;
+   background: yellowgreen;
+}
+
+h3 {
+
+   color: rgb(128, 22, 128);
+   background: rgb(240, 202, 32);
+}
+
+h5 {
+
+   color: rgb(165, 17, 12)
+}
+
+article
+{
+   background: sandybrown;
+}
+
+
+.hotpink-hotpink {
+
+   color: hotpink
+}
+
+
+#top{
+
+   color: #740707
+}
+
+
+nav a {
+
+   color: whitesmoke
+}
+
+a {
+
+   color: orange;
+   background: rgb(155, 10, 155);
+}

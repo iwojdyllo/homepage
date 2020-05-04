@@ -1,0 +1,74 @@
+
+/* paleta błękitno-fioletowa */
+
+.b {
+
+    background: #d6d4a0;
+}
+
+.link {color: #348aa7}
+
+.link2 {color: #348aa7; background:#cbef43;}
+
+.sekcja {background: #a09be7;}
+
+
+.h1 {
+
+    color: #a09be7;;
+    background:   #635380;
+}
+
+.h2 {
+
+    color: #b0ff92;
+    background: #a09be7;
+ }
+
+.h3 {
+
+    color: #635380
+ }
+
+.h5 {
+
+    background:#cbef43;
+}
+
+
+.art {
+
+    background: #348aa7;
+}
+
+
+.art-nastr {
+
+    background: #a4bab7;
+}
+
+.h2-dod {
+
+    color:#cbef43;
+}
+
+
+.par {
+
+    color: #49306b
+}
+
+
+.par-d {
+    color: #cbef43;
+
+}
+
+.par-n {
+    color: #49306b;
+
+}
+
+.par-f {
+    color: #49306b;
+}
