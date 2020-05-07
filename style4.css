@@ -6,7 +6,9 @@
     background: #d6d4a0;
 }
 
-.link {color: #348aa7}
+.link {color: #348aa7;
+display: block
+}
 
 .link2 {color: #348aa7; background:#cbef43;}
 
@@ -23,6 +25,7 @@
 
     color: #b0ff92;
     background: #a09be7;
+    
  }
 
 .h3 {
@@ -39,6 +42,7 @@
 .art {
 
     background: #348aa7;
+    display: block;
 }
 
 
@@ -55,7 +59,11 @@
 
 .par {
 
-    color: #49306b
+    color: #49306b;
+    display: block;
+    /* display: inline; */
+    width: 150px;
+    height: 300px;
 }
 
 
