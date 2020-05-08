@@ -18,6 +18,8 @@ width: 300px;
 /* width: 60%; */
 height: 100 px;
 overflow: auto; 
+border: 3px dashed #348aa7;
+margin: 20px 10px;
 }
 
 
@@ -27,6 +29,8 @@ overflow: auto;
     /* width: 60%; */
     height: 100 px;
     overflow: auto; 
+    border: 3px dashed #c75146;
+    margin: 20px 10px;
     }
 
 
@@ -35,6 +39,8 @@ overflow: auto;
     /* width: 60%; */
     height: 100 px;
     overflow: auto; 
+    border: 3px dashed #ffd520;
+    margin: 20px 10px;
     }
 
 
@@ -91,9 +97,37 @@ overflow: auto;
     /* width: 75vw; */
     min-height: 100px;
     padding: 5px 10px;
-    border: 3px solid #cbef43;
+    border: 3px dashed #cbef43;
 }
 
+
+.par-oval {
+
+    color: #b0ff92;
+    background: #072ac8;
+    display: block;
+    width: 150px;
+    min-height: 100px;
+    padding: 20px;
+    border: 3px dashed #cbef43;
+    border-radius: 50px;
+
+}
+
+
+
+.par-circle {
+
+    color: #b0ff92;
+    background: #072ac8;
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border: 3px dashed #cbef43;
+    border-radius: 50%;
+
+}
 
 .par-d {
     color: #cbef43;
