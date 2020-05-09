@@ -5,6 +5,7 @@
 
     background: #d6d4a0;
     display: block;
+    position: relative;
 }
 
 .link {color: #348aa7;
@@ -34,7 +35,7 @@ left: 45px;
     height: 100 px;
     overflow: auto; 
     border: 3px dashed #c75146;
-    margin: 20px auto;
+    margin: 150px auto;
     }
 
 
@@ -44,7 +45,7 @@ left: 45px;
     height: 100 px;
     overflow: auto; 
     border: 3px dashed #ffd520;
-    margin: 20px 10px;
+    /* margin: 10px; */
     box-sizing: border-box;
     position: absolute;
     right: 45px;
@@ -63,6 +64,8 @@ left: 45px;
     background: #a09be7;
     
  }
+
+ 
 
 .h3 {
 
