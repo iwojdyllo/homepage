@@ -1,74 +1,64 @@
-
 /* patela zielona */
 
 .b {
-
-    background: #f5fdc6;
+  background: #f5fdc6;
 }
 
-.link {color: #348aa7}
+.link {
+  color: #348aa7;
+}
 
-.link2 {color: #348aa7; background:#cbef43;}
+.link2 {
+  color: #348aa7;
+  background: #cbef43;
+}
 
-.sekcja {background: #c0c781;}
-
+.sekcja {
+  background: #c0c781;
+}
 
 .h1 {
-
-    color: #f5fdc6;;
-    background:   #157f1f;
+  color: #f5fdc6;
+  background: #157f1f;
 }
 
 .h2 {
-
-    color: #f5fdc6;
-    background: #3ec300;
- }
+  color: #f5fdc6;
+  background: #3ec300;
+}
 
 .h3 {
-
-    color: #635380
- }
+  color: #635380;
+}
 
 .h5 {
-
-    background:#cbef43;
+  background: #cbef43;
 }
-
 
 .art {
-
-    background: #0a210f;
+  background: #0a210f;
 }
 
-
 .art-nastr {
-
-    background: #cbef43;
+  background: #cbef43;
 }
 
 .h2-dod {
-
-    color:#cbef43;
+  color: #cbef43;
 }
-
 
 .par {
-
-    color: #0a210f
+  color: #0a210f;
 }
 
-
 .par-d {
-    color: #f5fdc6;
-
+  color: #f5fdc6;
 }
 
 .par-n {
-    color: #49306b;
-
+  color: #49306b;
 }
 
 .par-f {
-    color: #0a210f;
+  color: #0a210f;
 }

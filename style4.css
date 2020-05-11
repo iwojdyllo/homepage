@@ -1,155 +1,138 @@
-
 /* paleta błękitno-fioletowa */
 
-.b {
-
-    background: #d6d4a0;
-    display: block;
-    position: relative;
+.body {
+  background: #d6d4a0;
+  display: block;
+  position: relative;
 }
 
-.link {color: #348aa7;
-display: block;
+.navigation {
+  background: #cbef43;
 }
 
-.link2 {color: #348aa7; background:#cbef43;
-display: block;}
-
-.sekcja-left {background: #a09be7;
-width: 300px;
-/* width: 60%; */
-height: 100 px;
-overflow: auto; 
-border: 3px dashed #348aa7;
-margin: 20px 10px;
-box-sizing: border-box;
-position: absolute;
-left: 45px;
+.navigation__link {
+  color: #348aa7;
+  display: block;
 }
 
-
-
-.sekcja-middle {background: #a09be7;
-    width: 300px;
-    /* width: 60%; */
-    height: 100 px;
-    overflow: auto; 
-    border: 3px dashed #c75146;
-    margin: 150px auto;
-    }
-
-
-.sekcja-right {background: #a09be7;
-    width: 300px;
-    /* width: 60%; */
-    height: 100 px;
-    overflow: auto; 
-    border: 3px dashed #ffd520;
-    /* margin: 10px; */
-    box-sizing: border-box;
-    position: absolute;
-    right: 45px;
-    }
-
-
-.h1 {
-
-    color: #a09be7;;
-    background:   #635380;
+.navigation__link--homepage {
+  background: #13c4a3;
 }
 
-.h2 {
-
-    color: #b0ff92;
-    background: #a09be7;
-    
- }
-
- 
-
-.h3 {
-
-    color: #635380
- }
-
-.h5 {
-
-    background:#cbef43;
+.page__header {
+  color: #a09be7;
+  background: #635380;
 }
 
-
-.art {
-
-    background: #348aa7;
-    display: block;
-}
-
-
-.art-nastr {
-
-    background: #a4bab7;
-}
-
-.h2-dod {
-
-    color:#cbef43;
-}
-
-
-.par {
-
-    color: #b0ff92;
-    background: #072ac8;
-    display: block;
-    /* display: inline; */
-    width: 150px;
-    /* width: 70%; */
-    /* width: 75vw; */
-    min-height: 100px;
-    padding: 5px 10px;
-    border: 3px dashed #cbef43;
-    /* box-sizing: border-box; */
-}
-
-
-.par-oval {
-
-    color: #b0ff92;
-    background: #072ac8;
-    display: block;
-    width: 150px;
-    min-height: 100px;
-    padding: 20px;
-    border: 3px dashed #cbef43;
-    border-radius: 50px;
+.page__subheader {
+  color: #4a051c;
+  background: #a09be7;
 
 }
 
-
-
-.par-circle {
-
-    color: #b0ff92;
-    background: #072ac8;
-    display: block;
-    width: 100px;
-    height: 100px;
-    padding: 40px;
-    border: 3px dashed #cbef43;
-    border-radius: 50%;
-
+.section-left {
+  background: #a09be7;
+  width: 300px;
+  /* width: 60%; */
+  height: 100 px;
+  overflow: auto;
+  border: 3px dashed #348aa7;
+  margin: 20px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 45px;
 }
 
-.par-d {
-    color: #cbef43;
-
+.section-middle {
+  background: #a09be7;
+  width: 300px;
+  /* width: 60%; */
+  height: 100 px;
+  overflow: auto;
+  border: 3px dashed #c75146;
+  margin: 150px auto;
 }
 
-.par-n {
-    color: #49306b;
-
+.section-right {
+  background: #a09be7;
+  width: 300px;
+  /* width: 60%; */
+  height: 100 px;
+  overflow: auto;
+  border: 3px dashed #ffd520;
+  /* margin: 10px; */
+  box-sizing: border-box;
+  position: absolute;
+  right: 45px;
 }
 
-.par-f {
-    color: #49306b;
+.section__header {
+  color: #b0ff92;
+  background: #a09be7;
+}
+
+.section__paragraph {
+  color: #b0ff92;
+  background: #072ac8;
+  display: block;
+  /* display: inline; */
+  width: 150px;
+  /* width: 70%; */
+  /* width: 75vw; */
+  min-height: 150px;
+  padding: 5px 10px;
+  border: 3px dashed #cbef43;
+  /* box-sizing: border-box; */
+}
+
+.section__paragraph--oval {
+  border-radius: 50px;
+}
+
+.section__paragraph--circle {
+  border-radius: 50%;
+  padding: 30;
+}
+
+.section__link {
+  color: #348aa7;
+  background: #cbef43;
+  display: block;
+}
+
+.article {
+  background: #348aa7;
+  display: block;
+}
+
+.article__header {
+  color: #cbef43;
+}
+
+.article__paragraph {
+  color: #cbef43;
+}
+
+.article-mood {
+  background: #a4bab7;
+}
+
+.article-mood__header {
+  color: #635380;
+}
+
+.article-mood__paragraph {
+  color: #49306b;
+}
+
+.footer {
+  background: #c75146;
+}
+
+.footer__header {
+  background: #cbef43;
+}
+
+.footer__paragraph {
+  color: black;
 }
