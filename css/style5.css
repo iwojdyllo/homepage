@@ -1,9 +1,17 @@
 /* paleta błękitno-fioletowa */
 
+.html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 .body {
   background: #d6d4a0;
-  display: block;
-  position: relative;
 }
 
 .navigation {
@@ -20,60 +28,61 @@
 
 .navigation__link--homepage {
   background: #13c4a3;
-  
+}
+
+.main {
+  display: flex;
+width: 100%;
+  border: 4px solid #ee0c21;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
 }
 
 .page__header {
   color: #a09be7;
   background: #635380;
+  margin:15px;
 }
 
 .page__subheader {
   color: #4a051c;
   background: #a09be7;
-
+  margin:15px;
 }
 
+.image {
+  /* order:-1; */
+  margin: 20px;
+}
 
-.section-left {
+.section {
   background: #a09be7;
-  width: 300px;
+  width: 200px;
   /* width: 60%; */
   height: 100 px;
-  overflow: auto;
+  margin: 10px;
+}
+
+.section--left {
   border: 3px dashed #348aa7;
-  margin: 20px 10px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 45px;
+  align-self: flex-start;
 }
 
-.section-middle {
-  background: #a09be7;
-  width: 300px;
-  /* width: 60%; */
-  height: 100 px;
-  overflow: auto;
+.section--middle {
   border: 3px dashed #c75146;
-  margin: 150px auto;
+  align-self: center;
 }
 
-.section-right {
-  background: #a09be7;
-  width: 300px;
-  /* width: 60%; */
-  height: 100 px;
-  overflow: auto;
+.section--right {
   border: 3px dashed #ffd520;
-  /* margin: 10px; */
-  box-sizing: border-box;
-  position: absolute;
-  right: 45px;
+  align-self: flex-end;
 }
 
 .section__header {
   color: #b0ff92;
   background: #a09be7;
+  margin: 5px;
 }
 
 .section__paragraph {
@@ -86,7 +95,8 @@
   /* width: 75vw; */
   min-height: 150px;
   padding: 5px 10px;
-  border: 3px dashed #cbef43;
+  border: 1px solid #cbef43;
+  margin: 10px;
   /* box-sizing: border-box; */
 }
 
@@ -105,9 +115,17 @@
   display: block;
 }
 
+.section--mood {
+
+  width: 100%;
+}
+
+
 .article {
   background: #348aa7;
-  display: block;
+  padding: 15px;
+  margin: 10px;
+  
 }
 
 .article__header {
@@ -116,6 +134,7 @@
 
 .article__paragraph {
   color: #cbef43;
+  margin: 5px;
 }
 
 .article-mood {
@@ -128,6 +147,7 @@
 
 .article-mood__paragraph {
   color: #49306b;
+  margin: 15px;
 }
 
 .footer {
@@ -141,5 +161,3 @@
 .footer__paragraph {
   color: black;
 }
-
-

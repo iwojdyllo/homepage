@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" class="html">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style5.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="body">
+    <header class="nav-header" id="top">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna Złotych Myśli</a
+        >
+        <a class="navigation__link" href="notatki-dod.html"
+          >Notatki dodatkowe</a
+        >
+        <a class="navigation__link" href="deser.html">Deser</a>
+      </nav>
 
-    <header>
-        <nav>
-            <a href="index.html">Strona główna Złotych Myśli</a>
-            <a href="notatki-dod.html">Notatki dodatkowe</a>
-            <a href="deser.html">Deser</a>
-        </nav>
+      <h1 class="page__header">Deser</h1>
+      <p class="page__subheader"> Podtytuł strony</p>
     </header>
 
-    <main>
-        <header id='top'>
-            <h1 class="hotpink-hotpink">Deser</h1>
-        </header>
+    <main class="main">
 
-        <img src="deser1.jpg" alt="deser"/>
+
+        <img src="img/deser1.jpg" alt="deser" class="image"/>
 
         <article>
             <h2>Na deser będą zdjęcia :)</h2>
@@ -34,7 +38,7 @@
 
         </article>
 
-        <img src="deser4.jpg" alt="deser"/>
+        <img src="img/deser4.jpg" alt="deser" class="image"/>
 
     </main>
 
@@ -45,10 +49,10 @@
         </p>
     </footer>
 
-    <script>
+    <!-- <script>
 
         alert('hello world!');
-    </script>
+    </script> -->
 
 </body>
 
