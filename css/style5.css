@@ -11,7 +11,12 @@
 }
 
 .body {
-  background: #d6d4a0;
+  background-color: #d6d4a0;
+  background-image: url('../img/backgrd1.jpeg');
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: round;
+  
 }
 
 .navigation {
@@ -37,6 +42,7 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
   /* align-items: center; */
+  padding: 10px;
 }
 
 .page__header {
@@ -53,15 +59,17 @@
 
 .image {
   /* order:-1; */
-  /* margin: 20px; */
+  margin: 20px;
+  align-self: flex-start;
 }
 
 .section {
-  background: #a09be7;
+  background: #a09be78a;
   width: 200px;
   /* width: 60%; */
   min-height: 200px;
-  margin: 0 10px;
+  margin:5px;
+  padding: 10px;
 }
 
 .section--left {
@@ -79,15 +87,12 @@
   align-self: flex-end;
 }
 
-.section--lista {
-width: 1035px;
 
-}
 
 .section__header {
   color: #b0ff92;
   background: #a09be7;
-  /* margin: 5px; */
+  margin: 5px;
 }
 
 .section__paragraph {
@@ -101,7 +106,7 @@ width: 1035px;
   min-height: 150px;
   padding: 5px 10px;
   border: 1px solid #cbef43;
-  /* margin: 10px; */
+  margin: 10px;
   /* box-sizing: border-box; */
 }
 
@@ -130,15 +135,35 @@ width: 1035px;
 }
 
 .section--mood {
-
-  width: 1035px;
+margin: 10px 0;
+  width: 100%;
 }
 
+.table-section {
+  background: #a09be7;
+  margin:5px;
+  padding: 10px;
+  border: 3px dashed #cf1259;
+  align-self: flex-start;
+  order: 5000;
+  width: 100%;
+}
+
+.section__header--table {
+  color: #cf1259;
+}
+
+
+.table {
+
+  width: 100%;
+  border: 1px solid #cf1259;
+}
 
 .article {
   background: #348aa7;
   padding: 15px;
-  /* margin: 10px; */
+  margin: 10px;
   
 }
 
@@ -148,7 +173,7 @@ width: 1035px;
 
 .article__paragraph {
   color: #cbef43;
-  /* margin: 5px; */
+  margin: 5px;
 }
 
 .article-mood {
@@ -161,7 +186,48 @@ width: 1035px;
 
 .article-mood__paragraph {
   color: #49306b;
-  /* margin: 15px; */
+  margin: 15px;
+}
+
+
+.list {
+ list-style: lower-greek;
+}
+
+
+.list--modification {
+  list-style: square;
+ }
+
+
+.form {
+background: #ff6700;
+
+}
+
+.form__label {
+
+  background: #cbef43;
+  width: 100%;
+  display: inline-block;
+}
+
+.form__item {
+
+  width: 100%;
+
+}
+
+.form__item--radio {
+
+  width: 200px;
+  display: block;
+
+}
+
+.tylish {
+display: flex-coulumn;
+  order: -1;
 }
 
 .footer {
