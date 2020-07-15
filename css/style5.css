@@ -31,6 +31,11 @@
   margin-right: 40px;
 }
 
+.navigation__link:hover {
+  color: red;
+}
+
+
 .navigation__link--homepage {
   background: #13c4a3;
 }
@@ -70,6 +75,11 @@
   min-height: 200px;
   margin:5px;
   padding: 10px;
+}
+
+.section:hover {
+
+  background: #505168;
 }
 
 .section--left {
@@ -134,6 +144,10 @@
   display: block;
 }
 
+.section__link:hover {
+  color: red;
+}
+
 .section--mood {
 margin: 10px 0;
   width: 100%;
@@ -169,6 +183,11 @@ margin: 10px 0;
 
 .article__header {
   color: #cbef43;
+}
+
+
+.article__header::before {
+  content: "BEFORE_____";
 }
 
 .article__paragraph {
